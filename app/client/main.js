@@ -1,7 +1,6 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { people } from '../both/PeopleCollection';
-import './PeopleInitialization';
 import './main.html';
 
 Template.hello.onCreated(function helloOnCreated() {
